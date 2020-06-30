@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.desarrollo.blockchain.activities.ResumeCaptureActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="38sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimaryDark">
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:text="@string/lbl_intro_data_resume"
+                android:textColor="@color/colorPrimaryDark">
+            </TextView>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:columnCount="1"
+                android:rowCount="12">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/lbl_nombres"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="0">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtNombres"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="1">
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/lbl_apellidos"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="2">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtApellidos"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="3">
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/lbl_email"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="4">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="5">
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/lbl_profesion"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="6">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtOcupacion"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="7" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/lbl_suscripcion_lista_correo"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="8">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtSuscribirse"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="9"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/lbl_aceptacion_terminos"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="10">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtAceptaTerminos"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_row="11"/>
+            </GridLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:text="@string/app_description3"
+                android:textColor="@color/colorPrimaryDark">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnFinalizar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorAccent"
+                android:drawableStart="@drawable/finalizar"
+                android:gravity="end|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/btn_finalizar"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

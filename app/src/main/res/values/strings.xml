@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LogyChain</string>
+    <string name="app_description1">Pese a que su origen está ligado al de las finanzas, ya que es la tecnología
+        que ha servido de base para el desarrollo de las criptomonedas como el bitcoin, el termino blockchain (cadena de bloques)
+        está cada vez más presente en el ámbito del transporte y la logística.</string>
+    <string name="app_description2">El más importante de sus usos es el que permite la realización de contratos inteligentes (Smart Contracts).
+        Al poder hacer transacciones digitales entre dos partes con autenticidad validada por una red de miles de ordenadores que crean un registro
+        inalterable, las posibilidades de aplicación son infinitas.</string>
+    <string name="app_description3">En LogyChain ofrecemos soluciones y servicios especializados en temas logístios para la implementación
+        de Cadenas de Bloques, desde procesos sencillos, hasta la integración total en la operación normal de cualquier empresa de servicios directos o
+        asociados.</string>
+    <string name="btn_continuar">Continuar</string>
+
+    <!-- Captura de Datos -->
+    <string name="lbl_intro_data_capture">Para recibir mayor información acerca de nuestros productos y servicios, por favor diligencie el siguiente formulario:</string>
+    <string name="lbl_nombres">Nombres</string>
+    <string name="lbl_apellidos">Apellidos</string>
+    <string name="lbl_email">Correo electrónico</string>
+    <string name="lbl_profesion">Ocupación</string>
+    <string name="lbl_suscripcion_lista_correo">¿Está interesado en recibir información importante vía correo electrónico?</string>
+    <string name="lbl_aceptacion_terminos">¿Está de acuerdo con los términos y condiciones de LogyChain?</string>
+    <string name="lbl_si">Sí</string>
+    <string name="lbl_no">No</string>
+    <string name="btn_suscribirse">Registrarse</string>
+
+    <!-- Resumen de los datos capturados -->
+    <string name="lbl_intro_data_resume">Muchas gracias por su interés en LogyChain. En breve nos pondremos en contacto.
+        A continuación podrá ver los datos digitados en nuestro sistema:</string>
+    <string name="btn_finalizar">Finalizar</string>
+
+</resources>
